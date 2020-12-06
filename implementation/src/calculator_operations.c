@@ -78,7 +78,3 @@ int time(int operand1)
 {
     return operand1 * 60;
 }
-int sine(int operand1)
-{
-    return sin(operand1);
-}

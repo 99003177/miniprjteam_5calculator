@@ -117,11 +117,5 @@ int length(int operand1);
 */
 int time(int operand1);
 
-/**
- * @param[in] operand1
- * @return sine of operand1
- */
-int sine(int operand1);
-
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */

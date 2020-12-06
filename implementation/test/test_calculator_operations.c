@@ -143,8 +143,3 @@ void test_time(void) {
   /* Dummy fail*/
   //CU_ASSERT(130==time(3));
 }
-void test_sine(void)
-{
-  //CU_ASSERT(0.70710678118==sine(45));
-  CU_ASSERT(1==sine(90));
-}
