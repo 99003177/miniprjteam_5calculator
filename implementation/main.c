@@ -1,8 +1,10 @@
 #include <calculator_operations.h>
-  #include <math.h>
+  //#include <math.h>
+#include<math.h>
 
 /* Status of the operation requested */
 #define VALID   (1)
+//#define INVALID (0)
 #define INVALID (0)
 
 /* Calculator operation requested by user*/
