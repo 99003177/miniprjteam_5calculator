@@ -28,7 +28,7 @@ int add(int operand1, int operand2);
 * @return Result of operand1 - operand2
 */
 //int subtract(int operand1, int operand2);
-int subtract(int operand1,int operand 2);
+int subtract(int operand1,int operand2);
 
 /**
 *  multiply the operand1, operand2 and returns the result
@@ -37,7 +37,7 @@ int subtract(int operand1,int operand 2);
 * @return Result of operand1 * operand2
 */
 //int multiply(int operand1, int operand2);
-int multiply(int operand 1,int operand 2);
+int multiply(int operand1,int operand2);
 
 
 /**
@@ -93,13 +93,8 @@ int factorial(int operand1);
 * @return flating point value of the 1 / operand2
 * @note returns 0 for divide by 0 error
 */
-<<<<<<< HEAD
 //int inverse(int operand1);
 int inverse(int operand1);
-=======
-
-int inverse(int operand 1);
->>>>>>> 3de6a45dc45fc3bfc1a9b87f2f4ccc75a50a3e32
 
 
 /**
