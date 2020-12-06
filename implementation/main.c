@@ -168,6 +168,9 @@ void calculator_menu(void)
             printf("\n\tsine(%d)=%d\nenter to continue"
             calculator_operand1,
             sine(calculator_operand)); 
+            __fpurge(stdin);
+            getchar();
+            break;
       case 14:
             exit(0);
             break;
