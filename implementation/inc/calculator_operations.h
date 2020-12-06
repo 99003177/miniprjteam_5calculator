@@ -115,7 +115,6 @@ int currency(int operand1);
 */
 int length(int operand1);
 
-
 /**
 *  multiply the operand1 with 60 and returns the result
 * @param[in] operand1 
