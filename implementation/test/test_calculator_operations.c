@@ -18,6 +18,7 @@ void test_inverse(void);
 void test_currency(void);
 void test_length(void);
 void test_time(void);
+void test_sine(void);
 
 /* Start of the application test */
 int main() {
@@ -42,6 +43,7 @@ int main() {
   CU_add_test(suite, "currency", test_currency);
   CU_add_test(suite, "length", test_length);
   CU_add_test(suite, "time", test_time);
+  CU_add_test(suite,"sine",test_sine);
 
 
 /* Note: Do not edit START*/
@@ -140,4 +142,8 @@ void test_time(void) {
   
   /* Dummy fail*/
   CU_ASSERT(130==time(3));
+}
+void test_time(void){
+  CU_ASSERT(0.70710678118==sine(45));
+  CU_ASSERT(1==sine(90));
 }
