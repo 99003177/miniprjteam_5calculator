@@ -55,7 +55,7 @@ int divided(int operand1, int operand2);
 * @param[in] operand1
 * @param[in] operand2 
 * @return integer value of the operand1 % operand2
-* @note returns 0 for divide by 0 error
+* @note returns 0 for divide by 0 error 
 */
 int modulo(int operand1, int operand2);
 
