@@ -121,6 +121,7 @@ int length(int operand1);
 */
 int time(int operand1);
 
+
 /**
  * @param[in] operand1
  * @return sine of operand1
