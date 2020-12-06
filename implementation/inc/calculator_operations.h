@@ -93,8 +93,13 @@ int factorial(int operand1);
 * @return flating point value of the 1 / operand2
 * @note returns 0 for divide by 0 error
 */
+<<<<<<< HEAD
 //int inverse(int operand1);
 int inverse(int operand1);
+=======
+
+int inverse(int operand 1);
+>>>>>>> 3de6a45dc45fc3bfc1a9b87f2f4ccc75a50a3e32
 
 
 /**
