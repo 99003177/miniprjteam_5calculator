@@ -88,7 +88,6 @@ int squareroot(int operand1);
 */
 int factorial(int operand1);
 
-
 /**
 * divides 1 by operand1 and returns the result 
 * @param[in] operand1 
