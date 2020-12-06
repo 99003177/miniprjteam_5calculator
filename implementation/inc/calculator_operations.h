@@ -89,7 +89,8 @@ int factorial(int operand1);
 * @return flating point value of the 1 / operand2
 * @note returns 0 for divide by 0 error
 */
-int inverse(int operand1);
+//int inverse(int operand1);
+int inverse(int operand 1);
 
 
 /**
@@ -98,6 +99,7 @@ int inverse(int operand1);
 * @return Result of operand1 * 74
 */
 int currency(int operand1);
+
 
 
 /**
