@@ -43,7 +43,6 @@ int main() {
   CU_add_test(suite, "currency", test_currency);
   CU_add_test(suite, "length", test_length);
   CU_add_test(suite, "time", test_time);
-  CU_add_test(suite,"sine",test_sine);
 
 
 /* Note: Do not edit START*/
